@@ -15,8 +15,8 @@ jobs:
         uses: trsvchn/colab-badge-action@v4
         with:
           check: "all"
-          target_branch: master
-          target_repository: DataBootcamp2021/employee_churn
+          target_branch: main
+          target_repository: Etixi/employee_churn
           update: true
       
       - name: Add, commit, and push changes
